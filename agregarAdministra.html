@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Alta de Equipos de Cómputo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Para sitio DRW diseño web responsivo ADAPTATIVO a cualquier navegador y dispositivo-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+     <!-- Bootstrap core CSS -->
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+  
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<!-- Custom styles for this template -->    
+    <link href="css/navbar.css" rel="stylesheet">
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <script type="text/javascript" src="./demobar_files/jquery-latest.min.js"></script>
+<script type="text/javascript" src="./demobar_files/jquery.min.js"></script>
+<script type="text/javascript" src="./demobar_files/bootstrap.js"></script>
+<link type="text/css" rel="stylesheet" href="./demobar_files/bootstrap.css">
+  <script src="js/ie-emulation-modes-warning.js"></script>
+    </head>
+    <body>
+        <nav role="navigation" class="navbar navbar-default navbar-inverse">
+
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle collapsed" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="" class="navbar-brand">Menu</a>
+        </div>
+
+        <div id="navbarCollapse" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Inicio</a></li>
+                <li><a href="http://www.tecvalledechalco.edu.mx/">Página Oficial</a></li>
+                <li><a href="https://www.facebook.com/ElTUVCH/">Facebook</a></li>
+                <li><a href="http://www.tecvalledechalco.edu.mx/servicios_escolares.php">Contacto</a></li>
+            </ul>
+
+        </div>
+
+    </nav>
+        
+        <h2>Prestamo de Equipos ;</h2>
+        <hr><br>
+        <table width="280" height="200" border="2" align="center">
+            <form method="post" action="agregaLap.jsp">
+                <tr>
+                    <tr>
+                    <td>Id Administrador: </td>
+                    <td><input type="text" name="idAdmi"></td>
+                </tr>
+                    
+                    <td>Nombre Alumno: </td>
+                    <td><input type="text" name="nomAlu"></td>
+                </tr>
+                <tr>
+                    <td>Hora de Salida de Laptop : </td>
+                    <td><input type="text" name="salAdmi"></td>
+                </tr> 
+                 <tr>
+                    <td>Hora de Entrada de Laptop : </td>
+                    <td><input type="text" name="entAdmi"></td>
+                </tr> 
+                 <tr>
+                    <td>Matrícula de Alumno : </td>
+                    <td><input type="text" name="numAlum"></td>
+                </tr> 
+                 <tr>
+                    <td>Id Laptop : </td>
+                    <td><input type="text" name="idLap"></td>
+                </tr> 
+                <tr>
+                    <td><center><input type="submit" name="Submit" value="Registrar Salida"></center></td>
+                    <td><center><input type="reset" name="Submit2" value="Borrar"></center></td>
+                </tr>
+            </form>
+        </table>
+        
+        <script type="js/jquery-1.11.3.min"></script>        
+ <script src="js/bootstrap.js"></script>
+    </body>
+</html>

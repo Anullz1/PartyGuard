@@ -1,0 +1,40 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#home{
+    background:url(imasges2/tuvch_1.jpg) 100% 0 no-repeat fixed;
+}
+#section2{
+    background:url(imasges2/offlaps.jpg) 100% 0 no-repeat fixed;
+}
+
+#section3{
+    background:url(imasges2/TUVCH.jpg) 100% 0 no-repeat fixed;
+}
+
+#home, #section2, #section3{
+margin: 0px auto;
+max-width: 1920px;
+min-height:700px;
+position: relative;
+width: 100%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;      
+}
+#section2, #section3{
+box-shadow: 0 0 30px rgba(0,0,0,0.8);
+-webkit-box-shadow: 0 0 30px rgba(0,0,0,0.8);
+
+}
+
+.geek{
+background: url(image/bg.jpg) 50% 0 no-repeat fixed;
+display:block;
+height: 368px;
+margin: 0px auto;
+width:517px;
+}
